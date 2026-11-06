@@ -4,6 +4,8 @@ body{background:#fff}
 .kick{color:var(--sage);margin-bottom:22px}
 .textlink{color:var(--sage)}
 nav a.cta{background:var(--navy)}
+@media(min-width:641px){nav{display:flex;align-items:center;flex-wrap:nowrap}nav a{white-space:nowrap;margin-left:18px}}
+@media(min-width:901px) and (max-width:1180px){nav a{margin-left:12px;font-size:15px}}
 .appr{border-left-color:var(--sage)}
 .btn.amber{background:var(--navy)}
 .btn.ghost{background:#fff;color:var(--navy);border:2px solid var(--navy);margin-left:8px}

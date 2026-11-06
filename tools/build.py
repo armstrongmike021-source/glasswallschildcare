@@ -61,7 +61,7 @@ def head(title, desc, url, img="preschool-room.jpg"):
 <div class="wrap">
   <header class="top">
     <a class="brand" href="/">{LOGO}<span class="bname"><b>Glass Walls</b><small>Childcare</small></span></a>
-    <nav><a href="/childcare-centre-construction-sydney">Construction</a><a href="/working-with-architects">With your architect</a><a href="/examples">Examples</a><a href="/childcare-centre-rules-nsw">The rules</a><a href="/childcare-site-check">Site check</a><a href="/childcare-centre-cost">Cost calculator</a><a class="cta" href="/contact">Contact</a></nav>
+    <nav><a href="/childcare-centre-construction-sydney">Construction</a><a href="/working-with-architects">With your architect</a><a href="/examples">Examples</a><a href="/childcare-centre-rules-nsw">The rules</a><a href="/childcare-site-check">Site check</a><a href="/childcare-centre-cost">Costs</a><a class="cta" href="/contact">Contact</a></nav>
   </header>
 """
 
@@ -527,6 +527,8 @@ body{background:#fff}
 .kick{color:var(--sage);margin-bottom:22px}
 .textlink{color:var(--sage)}
 nav a.cta{background:var(--navy)}
+@media(min-width:641px){nav{display:flex;align-items:center;flex-wrap:nowrap}nav a{white-space:nowrap;margin-left:18px}}
+@media(min-width:901px) and (max-width:1180px){nav a{margin-left:12px;font-size:15px}}
 .appr{border-left-color:var(--sage)}
 .btn.amber{background:var(--navy)}
 .btn.ghost{background:#fff;color:var(--navy);border:2px solid var(--navy);margin-left:8px}
