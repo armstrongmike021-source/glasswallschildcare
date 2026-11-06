@@ -13,9 +13,9 @@ LOGO = """<img src="/images/estier-logo.png" alt="Estier" width="118" height="75
 
 # ------------------------------------------------------------------ the eight concept renders (never captioned as built work)
 RENDERS = [
- ("preschool-room.jpg", "Preschool room", "Glass between the room and the garden, and between this room and the next. An educator at the tables sees the verandah, the bathroom door and the room next door without moving."),
+ ("preschool-room.jpg", "Preschool room", "Glass between the room and the garden, and between this room and the next: acoustic laminated glass where rooms meet, toughened to the garden, manifestation at child height. An educator at the tables sees the verandah, the bathroom door and the room next door without moving."),
  ("toddler-room.jpg", "Toddler room", "Low sills so a two-year-old sees out, a glazed wall to the nappy-change and bathroom so the educator changing one child still has the room in view."),
- ("sleep-room.jpg", "Sleep room", "A glazed wall to the playroom with a blind that drops to half height: the cots are dark, the educator outside can still count every child."),
+ ("sleep-room.jpg", "Sleep room", "A glazed wall to the playroom with a blind that drops to half height: the cots are dark, the educator outside can still count every child. Acoustic glass and a sealed door, so the room sleeps through the playroom next door."),
  ("dining-room.jpg", "Dining and shared space", "The central room every group walks through to the garden. Glass to the kitchen so the cook and the educators see each other."),
  ("art-room.jpg", "Art and messy play", "Wet area off the playroom, glazed on two sides. Washable walls, a floor waste, and a sink at child height."),
  ("outdoor-play.jpg", "Outdoor play", "Seven square metres per child, facing north, with shade over at least half of it. The verandah is the wet-weather room and the sightline across the whole yard."),
@@ -24,15 +24,15 @@ RENDERS = [
 ]
 
 PAGES = [  # (file, clean url, title, description)
-    ("index.html", "/", "Glass Walls Childcare - childcare centre design and construction, Sydney | Estier",
-     "Estier designs and builds childcare and early-learning centres across Sydney: new centres, conversions and fitouts, designed around the National Regulations and built to a fixed price. Check the cost of your centre in ten seconds."),
-    ("childcare-centre-design-sydney.html", "/childcare-centre-design-sydney", "Childcare centre design, Sydney | Glass Walls Childcare by Estier", "How Estier designs a childcare centre: the rooms, the ratios, the sightlines, the outdoor area and the approvals, from the first site check to the licensing inspection."),
-    ("childcare-centre-construction-sydney.html", "/childcare-centre-construction-sydney", "Childcare centre builders, Sydney | Glass Walls Childcare by Estier", "Estier builds new childcare centres, converts existing buildings and fits out shells in new developments, to a fixed price and the operator's licensing date."),
-    ("examples.html", "/examples", "Childcare design examples | Glass Walls Childcare by Estier", "Eight design concepts for a glass-walled childcare centre: playrooms, sleep room, bathrooms, kitchen, outdoor play, entry and parent lounge."),
+    ("index.html", "/", "Glass Walls Childcare - childcare centre builders, Sydney | Estier",
+     "Estier builds childcare and early-learning centres across Sydney to your architect's drawings: new centres, conversions and fitouts, priced off the drawings and built to the licensing date. Check the cost of your centre in ten seconds."),
+    ("working-with-architects.html", "/working-with-architects", "Working with your architect | Glass Walls Childcare by Estier", "How Estier builds a childcare centre to an architect's drawings: buildability review, pricing off the drawings, the regulator's checklist, and the glass-wall detailing, with the architect kept in charge of the design."),
+    ("childcare-centre-construction-sydney.html", "/childcare-centre-construction-sydney", "Childcare centre construction, Sydney | Glass Walls Childcare by Estier", "Estier builds new childcare centres, converts existing buildings and fits out shells in new developments, to a fixed price and the operator's licensing date."),
+    ("examples.html", "/examples", "Childcare design examples | Glass Walls Childcare by Estier", "Eight rooms of a glass-walled childcare centre and how Estier builds each one: playrooms, sleep room, bathrooms, kitchen, outdoor play, entry and parent lounge."),
     ("childcare-centre-cost.html", "/childcare-centre-cost", "Childcare centre cost calculator, Sydney 2026 | Glass Walls Childcare by Estier", "What a childcare centre costs to build in Sydney: new build, conversion or fitout, by licensed places and finish. Space, parking and staffing minimums worked out for you."),
     ("childcare-centre-rules-nsw.html", "/childcare-centre-rules-nsw", "The rules a NSW childcare centre is designed to | Glass Walls Childcare by Estier", "The National Regulations, the NSW Child Care Planning Guideline, the SEPP, the National Construction Code and council controls that shape every childcare centre in NSW, in one page."),
     ("childcare-site-check.html", "/childcare-site-check", "Will your site work for a childcare centre? | Glass Walls Childcare by Estier", "Zoning, size, slope, roads, power lines, parking and outdoor space: the site tests a childcare centre has to pass in NSW, and a free site check from Estier."),
-    ("about.html", "/about", "About Estier | Glass Walls Childcare", "Estier is a Sydney design and construction company. Glass Walls Childcare is its childcare centre practice: design, approval and construction under one contract."),
+    ("about.html", "/about", "About Estier | Glass Walls Childcare", "Estier is a Sydney construction company. Glass Walls Childcare is its childcare centre practice: centres built to architects' drawings, priced off the drawings and handed over to the licensing date."),
     ("contact.html", "/contact", "Contact | Glass Walls Childcare by Estier", "Talk to Estier about a new childcare centre, a conversion or a fitout in Sydney."),
 ]
 
@@ -61,18 +61,18 @@ def head(title, desc, url, img="preschool-room.jpg"):
 <div class="wrap">
   <header class="top">
     <a class="brand" href="/">{LOGO}<span class="bname"><b>Glass Walls</b><small>Childcare</small></span></a>
-    <nav><a href="/childcare-centre-design-sydney">Design</a><a href="/childcare-centre-construction-sydney">Construction</a><a href="/examples">Examples</a><a href="/childcare-centre-rules-nsw">The rules</a><a href="/childcare-site-check">Site check</a><a href="/childcare-centre-cost">Cost calculator</a><a class="cta" href="/contact">Contact</a></nav>
+    <nav><a href="/childcare-centre-construction-sydney">Construction</a><a href="/working-with-architects">With your architect</a><a href="/examples">Examples</a><a href="/childcare-centre-rules-nsw">The rules</a><a href="/childcare-site-check">Site check</a><a href="/childcare-centre-cost">Cost calculator</a><a class="cta" href="/contact">Contact</a></nav>
   </header>
 """
 
 FOOT = f"""
   <footer>
     <div class="fcols">
-      <div><b>Glass Walls Childcare</b><br>Childcare and early-learning centres designed and built by Estier: new centres, conversions and fitouts across Sydney, under one contract and one fixed price.<br><span class="muted">Glass Walls Childcare is a practice of Estier Pty Ltd.</span></div>
+      <div><b>Glass Walls Childcare</b><br>Childcare and early-learning centres built by Estier to your architect's drawings: new centres, conversions and fitouts across Sydney, one contract and one fixed price.<br><span class="muted">Glass Walls Childcare is a practice of Estier Pty Ltd.</span></div>
       <div><b>Talk to us</b><br>6 Ossary Street, Mascot NSW 2020<br>Mon - Fri 9am - 5pm, weekends by appointment<br><a href="tel:{PHONE_TEL}">{PHONE}</a><br><a href="tel:{PHONE2_TEL}">{PHONE2}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></div>
-      <div><b>Pages</b><br><a href="/childcare-centre-design-sydney">Design</a> · <a href="/childcare-centre-construction-sydney">Construction</a> · <a href="/examples">Examples</a><br><a href="/childcare-centre-rules-nsw">The rules</a> · <a href="/childcare-site-check">Site check</a><br><a href="/childcare-centre-cost">Cost calculator</a> · <a href="/about">About Estier</a><br><b style="display:block;margin-top:8px">Also by Estier</b><a href="https://cityfitouts.com.au">City Fitouts</a> - shops, offices, cafes, medical<br><a href="https://coastbuild.com.au">Coast Build</a> - homes</div>
+      <div><b>Pages</b><br><a href="/childcare-centre-construction-sydney">Construction</a> · <a href="/working-with-architects">With your architect</a> · <a href="/examples">Examples</a><br><a href="/childcare-centre-rules-nsw">The rules</a> · <a href="/childcare-site-check">Site check</a><br><a href="/childcare-centre-cost">Cost calculator</a> · <a href="/about">About Estier</a><br><b style="display:block;margin-top:8px">Also by Estier</b><a href="https://cityfitouts.com.au">City Fitouts</a> - shops, offices, cafes, medical<br><a href="https://coastbuild.com.au">Coast Build</a> - homes</div>
     </div>
-    <p class="fine">The pictures on this site are design concepts by Estier, not photographs of built centres. Cost ranges are a guide only; every centre is priced after a site visit and off the drawings. Nothing here is planning or legal advice: the National Regulations, the Child Care Planning Guideline and your council's controls govern.</p>
+    <p class="fine">The pictures on this site are concept renders, not photographs of built centres. Cost ranges are a guide only; every centre is priced after a site visit and off the drawings. Nothing here is planning or legal advice: the National Regulations, the Child Care Planning Guideline and your council's controls govern.</p>
   </footer>
 </div>
 </body></html>
@@ -82,7 +82,7 @@ def gallery(n=8, small=True):
     out = '<div class="gallery">'
     for f, t, d in RENDERS[:n]:
         src = "/images/" + (f.replace(".jpg", "-s.jpg") if small else f)
-        out += f'<figure><a href="/examples#{f[:-4]}"><img src="{src}" alt="{t}: childcare design concept" loading="lazy" width="640" height="360"></a><figcaption><b>{t}</b> {d}</figcaption></figure>'
+        out += f'<figure><a href="/examples#{f[:-4]}"><img src="{src}" alt="{t}: childcare concept render" loading="lazy" width="640" height="360"></a><figcaption><b>{t}</b> {d}</figcaption></figure>'
     return out + "</div>"
 
 PROCESS = """
@@ -90,8 +90,8 @@ PROCESS = """
     <h2>How we work</h2>
     <div class="steps four">
       <div><span class="num">01</span><h3>Check the site</h3><p>Zoning, size, slope, the road, the neighbours, power lines and parking. We tell you how many places the site can carry before you spend anything on it.</p></div>
-      <div><span class="num">02</span><h3>Check the cost</h3><p>The calculator gives a Sydney range for the places you want and the way you are building. If the numbers work, we draw the centre.</p></div>
-      <div><span class="num">03</span><h3>Design and approve</h3><p>We design the centre to the National Regulations and the Child Care Planning Guideline, and take it through the development application with the planner, traffic, acoustic and access consultants it needs.</p></div>
+      <div><span class="num">02</span><h3>Check the cost</h3><p>The calculator gives a Sydney range for the places you want and the way you are building, so the architect and the operator start from a budget that holds.</p></div>
+      <div><span class="num">03</span><h3>Price the drawings</h3><p>Your architect designs the centre. We review the drawings for buildability and the regulator's checklist, price them, and carry the price through the development application so the approved centre is the one that was costed.</p></div>
       <div><span class="num">04</span><h3>Build and license</h3><p>One fixed price, one site manager, and the centre handed over to a program built backwards from the operator's service-approval inspection.</p></div>
     </div>
   </section>"""
@@ -124,7 +124,7 @@ CALC = """
       <div class="sub" id="perplace">-</div>
       <div class="row"><span>Construction, building</span><b id="cCon">-</b></div>
       <div class="row"><span>Outdoor play area and site works</span><b id="cOut">-</b></div>
-      <div class="row"><span>Design (Estier)</span><b id="cDes">-</b></div>
+      <div class="row"><span>Design (your architect)</span><b id="cDes">-</b></div>
       <div class="row"><span>Approvals and consultants</span><b id="cApp">-</b></div>
       <div class="mins" id="mins"></div>
       <div class="appr" id="appr"></div>
@@ -210,20 +210,20 @@ def home():
     return head(p[2], p[3], "/") + f"""
   <section class="hero">
     <div class="kick">Childcare centre design and construction, Sydney</div>
-    <h1>A centre where every child is in sight.</h1>
-    <p>Estier designs and builds childcare and early-learning centres: new centres on cleared sites, conversions of existing buildings, and fitouts of the ground floor in new developments. Designed around the National Regulations and the NSW Child Care Planning Guideline, built to a fixed price and the operator's licensing date.</p>
-    <p>Glass walls is the idea the practice is named for. Rooms glazed to each other, to the bathrooms and sleep rooms, and to the garden: the educator never loses sight of a child, the parent at the door sees the whole centre, and the rooms fill with light. It is also the cheapest way to meet the supervision rule the regulator cares most about.</p>
-    <p><a class="btn" href="/childcare-centre-cost">Check what your centre will cost</a> <a class="btn ghost" href="/childcare-site-check">Check your site</a></p>
+    <h1>Childcare centres, built to your drawings.</h1>
+    <p>Estier builds childcare and early-learning centres for architects, operators and developers: new centres on cleared sites, conversions of existing buildings, and fitouts of the ground floor in new developments. Your architect designs it. We price it off the drawings, build it to a fixed price, and hand it over to the operator's licensing date.</p>
+    <p>Glass walls is the idea the practice is named for. Rooms glazed to each other, to the bathrooms and sleep rooms, and to the garden: the educator never loses sight of a child, the parent at the door sees the whole centre, and the rooms fill with light. Glazed walls that have to perform acoustically and pass the regulator are a builder's problem as much as a designer's, and they are the one we have set up to solve.</p>
+    <p><a class="btn" href="/childcare-centre-cost">Check what your centre will cost</a> <a class="btn ghost" href="/working-with-architects">How we work with your architect</a></p>
   </section>
   <section class="band">
     <h2>The concept</h2>
-    <p>Eight rooms of a glass-walled centre, drawn by Estier. <a class="textlink" href="/examples">See all eight with the thinking behind each.</a></p>
+    <p>Eight rooms of a glass-walled centre and how we build each one. <a class="textlink" href="/examples">See all eight.</a></p>
     {gallery(4)}
   </section>
   <section class="band">
     <h2>Three ways to get a centre</h2>
     <div class="cards three">
-      <div class="card"><h3><a href="/childcare-centre-construction-sydney#new">A new centre</a></h3><p>A cleared site of 1,500 to 4,000 m², a single-storey or two-storey building of 60 to 120 places and the outdoor area to match. The longest road, through a development application, and the one that gives the operator exactly the centre it wants.</p></div>
+      <div class="card"><h3><a href="/childcare-centre-construction-sydney#new">A new centre</a></h3><p>A cleared site of 1,500 to 4,000 m², a single-storey or two-storey building of 60 to 120 places and the outdoor area to match. Thirty-six to fifty-two weeks on site, to a fixed price off your architect's drawings.</p></div>
       <div class="card"><h3><a href="/childcare-centre-construction-sydney#convert">A conversion</a></h3><p>A house on a large block, a church hall, a shop or an office floor turned into a centre. Faster and cheaper than a new build when the building and the block pass the tests; we check them before you commit.</p></div>
       <div class="card"><h3><a href="/childcare-centre-construction-sydney#shell">A fitout in a new development</a></h3><p>The ground floor of an apartment or mixed-use building, handed over as a shell. The consent usually already names the centre, so the fitout moves fast, and the outdoor area goes on the podium.</p></div>
     </div>
@@ -231,66 +231,65 @@ def home():
   {PROCESS}
   {calc_section()}
   <section class="band">
-    <h2>Why operators and developers come to us</h2>
+    <h2>Why architects bring us their centres</h2>
     <div class="cards three">
-      <div class="card"><h3>One contract</h3><p>Design, approval and construction under one agreement with one company, so the drawings are priced by the people who will build them and nothing falls between a designer and a builder.</p></div>
-      <div class="card"><h3>Designed to the rules first</h3><p>Every room is sized to the unencumbered-space rule, every group has its own bathroom, every sightline is checked against the supervision regulation, and the parking, acoustic and traffic reports are briefed before the drawings go to council.</p></div>
-      <div class="card"><h3>Priced before you buy the site</h3><p>Developers send us the address and the places they want. We tell them what the site can carry, what it will cost to build and how long it will take, before they exchange.</p></div>
+      <div class="card"><h3>Your design stays yours</h3><p>We build what you drew. Buildability comments go back to you as questions, not as redesign, and the operator keeps dealing with you on the design. Our name goes on the hoarding as the builder, yours on the drawings.</p></div>
+      <div class="card"><h3>We know the checklist</h3><p>Unencumbered space, sightlines, the bathroom off every room, the nappy-change in view, the shade, the fence detail, the refuge upstairs: we read the drawings against the regulator's list before we price them, so nothing gets rebuilt after the inspection.</p></div>
+      <div class="card"><h3>A price that holds</h3><p>A fixed price off the drawings with the provisional sums listed, and a program built backwards from the licensing date. When the operator asks the architect what it will cost, the answer comes from the builder, in days.</p></div>
     </div>
   </section>
   <section class="band two-col">
     <div>
       <h2>Talk to us about a centre</h2>
-      <p>Send us the address and the places you have in mind. We will tell you whether the site works, what it will cost and how long the approval will take, within a few days.</p>
+      <p>Send us the drawings, or the address and the places if there are no drawings yet. We come back with a price, a program and a list of anything in the drawings the regulator will query, within a few days.</p>
       <p>6 Ossary Street, Mascot NSW 2020<br>Mon - Fri 9am - 5pm, weekends by appointment<br><a href="tel:{PHONE_TEL}">{PHONE}</a> · <a href="tel:{PHONE2_TEL}">{PHONE2}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>
     </div>
     {quote_form("home")}
   </section>
-<script type="application/ld+json">{{"@context":"https://schema.org","@type":"GeneralContractor","name":"Glass Walls Childcare by Estier","url":"{DOMAIN}/","telephone":"+61 {PHONE}","email":"{EMAIL}","image":"{DOMAIN}/images/preschool-room.jpg","areaServed":"Sydney, NSW","address":{{"@type":"PostalAddress","streetAddress":"6 Ossary Street","addressLocality":"Mascot","addressRegion":"NSW","postalCode":"2020","addressCountry":"AU"}},"description":"Childcare and early-learning centre design and construction in Sydney: new centres, conversions and fitouts, designed to the National Regulations and built to a fixed price."}}</script>
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"GeneralContractor","name":"Glass Walls Childcare by Estier","url":"{DOMAIN}/","telephone":"+61 {PHONE}","email":"{EMAIL}","image":"{DOMAIN}/images/preschool-room.jpg","areaServed":"Sydney, NSW","address":{{"@type":"PostalAddress","streetAddress":"6 Ossary Street","addressLocality":"Mascot","addressRegion":"NSW","postalCode":"2020","addressCountry":"AU"}},"description":"Childcare and early-learning centre construction in Sydney: new centres, conversions and fitouts built to architects' drawings at a fixed price."}}</script>
 {CALC_JS}
 """ + FOOT
 
 def design_page():
     p = PAGES[1]
     return head(p[2], p[3], p[1], "toddler-room.jpg") + f"""
-  <section class="hero"><div class="kick">Childcare centre design</div><h1>Designed from the regulations outward.</h1>
-    <p>A childcare centre is the most rule-bound small building in Australia. The number of children sets the floor area, the age mix sets the rooms and the bathrooms, the staff ratios set the sightlines, and the council sets the parking, the setbacks and the noise. Estier designs the centre from those numbers outward, so the plan that goes to council is the plan that gets licensed.</p></section>
+  <section class="hero"><div class="kick">Working with your architect</div><h1>You design it. We build it.</h1>
+    <p>Most of the childcare centres we build are drawn by architects who have done dozens of them. Our job is to price the drawings honestly, build them exactly, and know the regulator's checklist well enough that nothing comes back after the inspection. The design stays with the architect, and so does the client's design relationship.</p></section>
   <section class="band">
-    <h2>What the plan has to do</h2>
+    <h2>What we bring to your drawings</h2>
     <div class="cards three">
-      <div class="card"><h3>Space for every child</h3><p>3.25 m² of unencumbered indoor space and 7 m² of unencumbered outdoor space for each child, measured without furniture, fixed equipment, passageways, bathrooms, kitchens, offices or the staff room. The licensed capacity of the centre is the smaller of what the two tests allow.</p></div>
-      <div class="card"><h3>Rooms that match the ratios</h3><p>In NSW one educator looks after four children under two, five children of two to three, and ten of three and over. So the rooms are sized to those multiples: a babies' room of 8 or 12, a toddlers' room of 10 or 15, preschool rooms of 20 or 30. Odd numbers waste a wage.</p></div>
-      <div class="card"><h3>A bathroom for every group</h3><p>Child-height toilets and basins off each playroom, visible from it, and a nappy-change bench with a sink in every room for children under three. The National Construction Code sets the count; the regulations set where they go.</p></div>
-      <div class="card"><h3>Supervision by design</h3><p>Regulation 115 asks for premises designed so educators can supervise children at all times. We take it literally: glass between rooms, into bathrooms and sleep rooms, low sills to the garden, no blind corners, and the verandah as the vantage point over the whole yard.</p></div>
-      <div class="card"><h3>Light, air and quiet</h3><p>Natural light and ventilation to every playroom, a sleep room that can be darkened, acoustic separation between rooms and from the neighbours, and the outdoor area kept under 55 dB(A) from the road where a council asks for it.</p></div>
-      <div class="card"><h3>The back of house</h3><p>Kitchen to food-safety standard, laundry, a cot room for the babies, staff room, office, parent reception, secure entry, storage for every room, and the bins, plant and deliveries kept away from the children's areas.</p></div>
+      <div class="card"><h3>A price in days, not weeks</h3><p>Send the DA set or the tender set and we price it off the drawings: a fixed lump sum with the provisional sums listed, the exclusions stated, and a program to the licensing date. Early enough that the operator's budget and your design are settled together.</p></div>
+      <div class="card"><h3>Buildability comments, not redesign</h3><p>Where a detail will not build the way it is drawn, or a cheaper detail does the same job, we say so as a question to you, with the dollar difference. You decide. We do not redraw your centre.</p></div>
+      <div class="card"><h3>The regulator's checklist</h3><p>Before pricing we read the set against the National Regulations and the Child Care Planning Guideline: unencumbered areas measured, sightlines to bathrooms and sleep rooms, nappy-change in view, shade over the outdoor area, the fence detail, the refuge if rooms are upstairs. Anything the inspection would catch, you hear about now.</p></div>
+      <div class="card"><h3>The glass</h3><p>Glazed walls between playrooms, into bathrooms and sleep rooms and out to the garden are our specialty: Grade A toughened and laminated glass to AS 1288, acoustic laminate where rooms meet, child-height manifestation, blinds and film where a room needs privacy, and frames detailed so a two-year-old cannot find an edge.</p></div>
+      <div class="card"><h3>The wet areas</h3><p>Children's bathrooms, nappy change, the art room, kitchen and laundry are where centres fail inspections and leak later. Floor wastes and falls set out before the slab, tanked walls, junior pans and basins at the heights the operator wants, and the hygiene detailing the regulator reads closely.</p></div>
+      <div class="card"><h3>The outdoor area</h3><p>Soft-fall to the fall heights, turf that survives, sandpits that drain, water play that does not flood the slab, shade structures engineered for wind, climb-resistant fencing and gates that self-close. Built with the landscape architect, to your plan.</p></div>
     </div>
   </section>
   <section class="band">
-    <h2>The glass-walls idea</h2>
+    <h2>How it runs</h2>
+    <div class="steps four">
+      <div><span class="num">01</span><h3>Concept</h3><p>You send the concept and the places. We give the operator a cost range and a program so the design proceeds on a budget that holds.</p></div>
+      <div><span class="num">02</span><h3>Development application</h3><p>We price the DA set and sit in on the consultant briefs where the builder's input helps: traffic for the drop-off, acoustic for the yard, the BCA report, access.</p></div>
+      <div><span class="num">03</span><h3>Construction documentation</h3><p>We review the tender set for buildability and the regulator's checklist, fix the price, and agree the program with the operator's opening date.</p></div>
+      <div><span class="num">04</span><h3>Build and hand over</h3><p>One site manager, weekly photo reports to you and the operator, your inspections at the stages you choose, and the file the operator needs for its service-approval inspection.</p></div>
+    </div>
+  </section>
+  <section class="band">
     <div class="two-col">
       <div>
-        <p>Most centres are built as a corridor with rooms off it, each room a box with one door. The educator in the room cannot see the bathroom, the sleep room or the room next door, so every centre runs on staff walking between boxes.</p>
-        <p>Our centres are glazed. Playroom to playroom, playroom to bathroom, playroom to sleep room, kitchen to dining, reception to the rooms, every room to the garden. Full-height toughened glass, acoustic laminated where rooms meet, with blinds where a room needs to be dark or private. The result is a centre that an educator can supervise standing still, that a parent can read from the front door, and that is full of daylight from both sides.</p>
-        <p>It costs about the same as plasterboard once the acoustic glass and the blinds are counted, and it photographs far better, which matters to the operator filling the places.</p>
+        <h2>Why glass walls</h2>
+        <p>The practice is named for the idea most of the best childcare designs share: a centre where nothing is hidden. Playroom to playroom, playroom to bathroom and sleep room, kitchen to dining, reception to the rooms, every room to the garden. Educators supervise without moving, parents read the whole centre from the door, and the rooms are lit from both sides.</p>
+        <p>It is the supervision rule in the National Regulations made visible, and it is the part of a childcare design that most depends on the builder: acoustic performance between rooms, safety glazing at child height, frames and sills that pass the inspection, blinds that drop to half height over the cots. We have set up to build it well.</p>
       </div>
-      <div><img src="/images/toddler-room-s.jpg" alt="Toddler room design concept with a glazed wall to the bathroom" width="640" height="360" loading="lazy"><p class="cap">Toddler room: glass to the bathroom and the nappy change, so one educator on the floor still has every child in view. Design concept.</p></div>
+      <div><img src="/images/toddler-room-s.jpg" alt="Toddler room concept with a glazed wall to the bathroom" width="640" height="360" loading="lazy"><p class="cap">Toddler room: glass to the bathroom and the nappy change, so one educator on the floor still has every child in view. Concept render.</p></div>
     </div>
   </section>
-  <section class="band">
-    <h2>How a centre gets designed</h2>
-    <div class="steps four">
-      <div><span class="num">01</span><h3>The brief</h3><p>Places, age mix, hours, the operator's model (long day care, preschool, occasional care) and the budget. Everything else follows from these.</p></div>
-      <div><span class="num">02</span><h3>The site test</h3><p>Zoning, area, width, slope, the road, the neighbours, power lines, flooding, bushfire and trees. Then a capacity study: how many places the site carries once parking, setbacks and the outdoor area are drawn.</p></div>
-      <div><span class="num">03</span><h3>Concept and cost</h3><p>A plan and a cost on the same page. If the places and the budget do not meet, we change the plan before anything is lodged.</p></div>
-      <div><span class="num">04</span><h3>Development application</h3><p>Drawings, the planner's statement, the traffic, acoustic, access and landscape reports, and the National Quality Framework checklist, lodged on the Planning Portal and followed through council or the planning panel.</p></div>
-    </div>
-  </section>
-  <section class="band"><h2>Who draws it</h2><p>Estier's design team draws the centre and documents it for the development application and construction. Where an operator has its own architect, we build to their drawings and bring the regulatory review, the cost control and the construction. Either way the people who price the centre are the people who build it.</p></section>
-  {calc_section("What will the centre cost?", "Places by age, the way you are building and the finish. A Sydney range in ten seconds.")}
+  <section class="band"><h2>If there is no architect yet</h2><p>Operators and developers sometimes come to us with a site and no drawings. We can bring an architect who has done childcare before, or price a concept for the one you choose. Either way the architect designs and we build.</p></section>
+  {calc_section("What will the centre cost?", "Places by age, the way you are building and the finish. A Sydney range in ten seconds, for the budget conversation with the operator.")}
   <section class="band two-col">
-    <div><h2>Start with the site</h2><p>Send us the address and the places you want. We come back with whether it works, what it carries and what it costs.</p></div>
-    {quote_form("design")}
+    <div><h2>Send us a set</h2><p>A concept, a DA set or a tender set. We come back with a price, a program and the checklist comments within a few days.</p></div>
+    {quote_form("architects")}
   </section>
 {CALC_JS}
 """ + FOOT
@@ -299,7 +298,7 @@ def construction_page():
     p = PAGES[2]
     return head(p[2], p[3], p[1], "outdoor-play.jpg") + f"""
   <section class="hero"><div class="kick">Childcare centre construction</div><h1>Built to a fixed price and the licensing date.</h1>
-    <p>Estier builds childcare centres three ways: new centres on cleared sites, conversions of existing buildings, and fitouts of shells in new developments. The contract is a fixed price off the drawings, and the program is built backwards from the day the NSW Department of Education inspects the centre for its service approval.</p></section>
+    <p>Estier builds childcare centres three ways: new centres on cleared sites, conversions of existing buildings, and fitouts of shells in new developments, to the architect's drawings. The contract is a fixed price off the drawings, and the program is built backwards from the day the NSW Department of Education inspects the centre for its service approval.</p></section>
   <section class="band" id="new">
     <h2>A new centre</h2>
     <div class="two-col">
@@ -321,7 +320,7 @@ def construction_page():
   <section class="band">
     <h2>The program is the licensing date</h2>
     <div class="steps four">
-      <div><span class="num">01</span><h3>Price</h3><p>A fixed price off the approved drawings and the operator's fitout brief, with the provisional sums listed, not hidden.</p></div>
+      <div><span class="num">01</span><h3>Price</h3><p>A fixed price off the architect's drawings and the operator's fitout brief, with the provisional sums listed, not hidden.</p></div>
       <div><span class="num">02</span><h3>Build</h3><p>One site manager, weekly photo reports, and the regulator's checklist walked at each stage so nothing is rebuilt after the inspection.</p></div>
       <div><span class="num">03</span><h3>Fit</h3><p>Joinery, play equipment, soft furnishings, kitchen and laundry equipment, data and security, coordinated with the operator's suppliers.</p></div>
       <div><span class="num">04</span><h3>Hand over</h3><p>Occupation certificate, the fire safety certificate, the as-built drawings and the file the operator needs for its service-approval inspection.</p></div>
@@ -329,7 +328,7 @@ def construction_page():
   </section>
   {calc_section()}
   <section class="band two-col">
-    <div><h2>Get a fixed price</h2><p>Send us the drawings if you have them, or the address if you do not. We price what is there and tell you what is missing.</p></div>
+    <div><h2>Get a fixed price</h2><p>Send us the drawings. We price what is there, tell you what the regulator will query, and give you the program to the opening date.</p></div>
     {quote_form("construction")}
   </section>
 {CALC_JS}
@@ -339,12 +338,12 @@ def examples_page():
     p = PAGES[3]
     out = head(p[2], p[3], p[1], "entry-lobby.jpg") + """
   <section class="hero"><div class="kick">Design examples</div><h1>Eight rooms of a glass-walled centre.</h1>
-    <p>These are design concepts drawn by Estier to show the idea: what each room is for, what it has to do under the regulations, and how glass does it. They are not photographs of built centres.</p></section>
+    <p>Concept renders of the kind of centre we build: what each room has to do under the regulations, how glass does it, and what the builder has to get right. They are not photographs of built centres; the design of your centre is your architect's.</p></section>
   <section class="band"><div class="examples">"""
     for i, (f, t, d) in enumerate(RENDERS):
-        out += f'<figure id="{f[:-4]}" class="{"flip" if i % 2 else ""}"><img src="/images/{f}" alt="{t}: childcare design concept" loading="lazy" width="1280" height="720"><figcaption><h2>{t}</h2><p>{d}</p><p class="tag">Design concept</p></figcaption></figure>'
+        out += f'<figure id="{f[:-4]}" class="{"flip" if i % 2 else ""}"><img src="/images/{f}" alt="{t}: childcare concept render" loading="lazy" width="1280" height="720"><figcaption><h2>{t}</h2><p>{d}</p><p class="tag">Concept render</p></figcaption></figure>'
     out += """</div></section>
-  <section class="band"><h2>Want to see it drawn for your site?</h2><p>Send us the address and the places you have in mind. The first concept and the cost come together, before anything is lodged. <a class="btn" href="/contact">Talk to us</a></p></section>
+  <section class="band"><h2>Have a centre on the drawing board?</h2><p>Send us the set. We price it, read it against the regulator's checklist and give you a program to the opening date. <a class="btn" href="/contact">Talk to us</a></p></section>
 """
     return out + FOOT
 
@@ -359,7 +358,7 @@ def cost_page():
     <div class="cards three">
       <div class="card"><h3>The building</h3><p>About 9.5 m² of building for every licensed place once the playrooms (3.25 m² a child unencumbered), cot rooms, bathrooms, kitchen, laundry, staff, office, storage and circulation are added up. A 90-place centre is roughly 850 m² of building at $4,000 to $5,800 a square metre for a new build.</p></div>
       <div class="card"><h3>The outdoor area and the site</h3><p>Seven square metres a child outdoors, which for 90 places is 630 m² of soft-fall, turf, sandpit, shade and fencing at $350 to $750 a square metre, plus the car park, drop-off, driveway, landscaping and deep-soil planting, $150,000 to $250,000 on a typical site.</p></div>
-      <div class="card"><h3>Design and approvals</h3><p>Design at 7 to 9 per cent of the works and the development application with its planner, traffic, acoustic, access, landscape and National Quality Framework consultants at 3 to 4 per cent. Council fees and the state levy on top.</p></div>
+      <div class="card"><h3>Design and approvals</h3><p>Your architect's design at 7 to 9 per cent of the works and the development application with its planner, traffic, acoustic, access, landscape and National Quality Framework consultants at 3 to 4 per cent. Council fees and the state levy on top.</p></div>
     </div>
   </section>
   <section class="band">
@@ -378,7 +377,7 @@ def cost_page():
     <p>Operators in Sydney charge about $150 to $200 a day for a place in 2026 and the federal Child Care Subsidy pays most of it for most families. A 90-place centre at 85 per cent occupancy turns over roughly $3 to $4 million a year. Investors pay for leased centres on yields of about 4.25 to 5.25 per cent in metropolitan Sydney, which is why a well-built centre on a 15 to 20 year lease is worth more than it cost. The federal $1 billion Building Early Education Fund, open since July 2025, and the three-day guarantee of subsidised care from January 2026 both push demand the same way: more places needed, and a shortage of sites that pass the tests.</p>
   </section>
   <section class="band two-col">
-    <div><h2>Turn the range into a price</h2><p>Send us the address and the places. We come back with what the site carries and a cost you can take to the bank.</p></div>
+    <div><h2>Turn the range into a price</h2><p>Send us the drawings, or the address and the places if there are none yet. We come back with a price you can take to the bank.</p></div>
     {quote_form("cost")}
   </section>
 <script type="application/ld+json">{{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{{"@type":"Question","name":"How much does a childcare centre cost to build in Sydney?","acceptedAnswer":{{"@type":"Answer","text":"In 2026 a new centre costs roughly $45,000 to $60,000 per licensed place before land, so a 90-place centre is about $4 million to $5.5 million. Converting an existing building is about $30,000 to $42,000 a place and fitting out a shell in a new development $22,000 to $32,000."}}}},{{"@type":"Question","name":"How much space does a childcare centre need per child?","acceptedAnswer":{{"@type":"Answer","text":"The Education and Care Services National Regulations require 3.25 square metres of unencumbered indoor space and 7 square metres of unencumbered outdoor space for each child. Including bathrooms, cot rooms, kitchen, laundry, staff and office areas, a centre needs about 9.5 square metres of building per licensed place."}}}},{{"@type":"Question","name":"How long does a childcare centre take to build?","acceptedAnswer":{{"@type":"Answer","text":"A development application takes six to twelve months in Sydney. After approval a new centre takes 36 to 52 weeks to build, a conversion 20 to 30 weeks and a fitout of a shell 14 to 22 weeks, followed by the service-approval inspection by the NSW Department of Education."}}}}]}}</script>
@@ -474,7 +473,7 @@ def site_page():
   </section>
   <section class="band">
     <h2>What a capacity study gives you</h2>
-    <p>A plan at 1:200 with the building, the outdoor area, the parking and the setbacks drawn to the rules; the places the site carries by age group; the approval path and the consultants it needs; and the cost from the calculator, refined to the site. Developers use it to decide whether to exchange. Operators use it to decide whether to sign the lease.</p>
+    <p>A sketch at 1:200 with the building, the outdoor area, the parking and the setbacks blocked out to the rules; the places the site carries by age group; the approval path and the consultants it needs; and the cost from the calculator, refined to the site. Developers use it to decide whether to exchange, operators to decide whether to sign the lease, and the architect starts from a site that has been tested.</p>
   </section>
   <section class="band two-col">
     <div><h2>Send us the address</h2><p>We run the ten tests and come back with the places the site carries and what it will cost. No charge for the first look.</p></div>
@@ -485,18 +484,18 @@ def site_page():
 def about_page():
     p = PAGES[7]
     return head(p[2], p[3], p[1], "parent-lounge.jpg") + f"""
-  <section class="hero"><div class="kick">About</div><h1>Estier designs and builds.</h1>
-    <p>Estier Pty Ltd is a Sydney design, development and construction company. Glass Walls Childcare is its childcare practice: centres designed to the regulations, approved through council and built to a fixed price, by the same people from the first site visit to the licensing inspection.</p></section>
+  <section class="hero"><div class="kick">About</div><h1>Estier builds.</h1>
+    <p>Estier Pty Ltd is a Sydney construction company. Glass Walls Childcare is its childcare practice: centres built to architects' drawings, priced off the drawings, taken through the inspection and handed over to the operator's opening date.</p></section>
   <section class="band">
     <div class="cards three">
-      <div class="card"><h3>Design</h3><p>Estier's design team draws centres for operators and developers and documents them for approval and construction. Where a client brings its own architect, we build to their drawings.</p></div>
-      <div class="card"><h3>Construction</h3><p>Licensed builders of commercial and residential work across Sydney. Our commercial fitouts trade as <a href="https://cityfitouts.com.au">City Fitouts</a>, our homes as <a href="https://coastbuild.com.au">Coast Build</a>.</p></div>
+      <div class="card"><h3>Construction</h3><p>Licensed builders of commercial and residential work across Sydney. Our commercial fitouts trade as <a href="https://cityfitouts.com.au">City Fitouts</a>, our homes as <a href="https://coastbuild.com.au">Coast Build</a>, and our childcare centres as Glass Walls Childcare.</p></div>
+      <div class="card"><h3>For architects</h3><p>We build to your drawings and leave the design to you. What we add is pricing in days, buildability comments with the dollar difference, and a reading of the set against the regulator's checklist before it is priced.</p></div>
       <div class="card"><h3>Development</h3><p>Estier assesses and develops sites of its own, so it reads a childcare site the way a developer does: what it carries, what it costs and what it is worth with a lease on it.</p></div>
     </div>
   </section>
   <section class="band">
     <h2>Why glass walls</h2>
-    <p>The practice is named for one idea: a centre where nothing is hidden. Rooms glazed to each other, to the bathrooms and sleep rooms, to reception and to the garden, so educators supervise without moving, parents see the whole centre from the door, and the building is full of light. It is the supervision rule in the National Regulations made visible, and it is what makes a centre photograph well enough to fill its places.</p>
+    <p>The practice is named for one idea the best childcare designs share: a centre where nothing is hidden. Rooms glazed to each other, to the bathrooms and sleep rooms, to reception and to the garden, so educators supervise without moving and parents see the whole centre from the door. It is the part of a childcare design that most depends on the builder, and the part we have set up to build well.</p>
   </section>
   <section class="band">
     <h2>Contact</h2>
@@ -508,11 +507,11 @@ def contact_page():
     p = PAGES[8]
     return head(p[2], p[3], p[1]) + f"""
   <section class="hero"><div class="kick">Contact</div><h1>Talk to us about a centre.</h1>
-    <p>A new centre, a conversion, a fitout in a new development, or a site you are thinking of buying. Send the address and the places you have in mind and we come back within a few days with whether it works, what it carries and what it will cost.</p></section>
+    <p>A new centre, a conversion, a fitout in a new development, or a site you are thinking of buying. Send the drawings, or the address and the places, and we come back within a few days with a price, a program and anything the regulator will query.</p></section>
   <section class="band two-col">
     <div>
       <p><b>Estier</b><br>6 Ossary Street, Mascot NSW 2020<br>Mon - Fri 9am - 5pm, weekends by appointment<br><a href="tel:{PHONE_TEL}">{PHONE}</a><br><a href="tel:{PHONE2_TEL}">{PHONE2}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>
-      <p>Operators, developers, landowners and the architects who look after them are all welcome. We also price centres drawn by others.</p>
+      <p>Architects, operators, developers and landowners are all welcome. Send a concept, a DA set or a tender set and we price it.</p>
     </div>
     {quote_form("contact")}
   </section>
@@ -584,7 +583,7 @@ def main():
     open("sitemap.xml", "w").write(sm + "</urlset>\n")
     open("robots.txt", "w").write(f"User-agent: *\nAllow: /\nDisallow: /thanks.html\nSitemap: {DOMAIN}/sitemap.xml\n")
     for f, s in pages.items():
-        for w in ["Republic", "Trevor", "architect-designed by Estier", "our architects", "Estier's architects", "guaranteed"]:
+        for w in ["Republic", "Trevor", "our architects", "Estier's architects", "Estier's design team", "guaranteed"]:
             assert w not in s, (f, w)
     print("built", len(pages) + 1, "pages")
 
