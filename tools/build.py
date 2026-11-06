@@ -388,12 +388,12 @@ def rules_page():
     p = PAGES[5]
     return head(p[2], p[3], p[1], "sleep-room.jpg") + f"""
   <section class="hero"><div class="kick">The rules</div><h1>Everything a NSW childcare centre is designed to.</h1>
-    <p>Five sets of rules shape a centre: the National Regulations that licence it, the state planning policy and guideline that approve it, the National Construction Code that builds it, and the council's controls that sit over the top. This page puts the numbers that drive the design in one place. It is a designer's summary, not advice: the instruments themselves govern.</p></section>
+    <p>Five sets of rules shape a centre: the National Regulations that licence it, the state planning policy and guideline that approve it, the National Construction Code that builds it, and the council's controls that sit over the top. This page puts the numbers that drive the design in one place, the ones we read a set of drawings against before we price it. It is a builder's summary, not advice: the instruments themselves govern.</p></section>
   <section class="band">
     <h2>1. The Education and Care Services National Regulations</h2>
     <p>The rules the NSW Department of Education licenses the centre against, through the National Quality Framework. The physical ones are in Part 4.3 (regulations 103 to 117).</p>
     <table class="rules">
-      <tr><th>Regulation</th><th>What it asks</th><th>What we design</th></tr>
+      <tr><th>Regulation</th><th>What it asks</th><th>What we check in the drawings</th></tr>
       <tr><td>107 Indoor space</td><td>3.25 m² of unencumbered indoor space for each child, excluding passageways, toilets, bathrooms, kitchens, offices, storage, staff rooms and anything the children do not use for play</td><td>Playrooms sized to the ratio multiples with the furniture drawn in, so the unencumbered figure is measured, not assumed</td></tr>
       <tr><td>108 Outdoor space</td><td>7 m² of unencumbered outdoor space for each child</td><td>North-facing where the site allows, with the verandah counted only where the regulator accepts it</td></tr>
       <tr><td>104 Fencing</td><td>A fence or barrier a preschool-age child cannot go through, over or under</td><td>Fences to the regulator's climb-resistant detail, gates self-closing and latched out of reach</td></tr>
@@ -447,7 +447,7 @@ def rules_page():
     <p>Once the centre is built the Department of Education assesses the service under the National Quality Standard. Quality Area 3, physical environment, is the one the building answers: fit for purpose, inclusive, well maintained, with indoor and outdoor spaces that let every child play, explore and be supervised. A centre designed to the table above arrives at the inspection with that area already met.</p>
   </section>
   <section class="band two-col">
-    <div><h2>Test your site against the rules</h2><p>Send us the address. We run the site tests, draw the capacity and tell you how many places it carries.</p></div>
+    <div><h2>Test your drawings or your site against the rules</h2><p>Send us the set, or the address if there is no set yet. We read it against the checklist and tell you what the regulator will query.</p></div>
     {quote_form("rules")}
   </section>
 """ + FOOT
