@@ -28,7 +28,7 @@ to City Fitouts. Static site, no build step: a push to main deploys.
   Infrastructure) 2021 ch 3 + Child Care Planning Guideline 2021 (planning circular PS 21-037), Ku-ring-gai DCP Part 10
   (parking 1/6 + 1/2 staff, 500 m base station, 70 m >33 kV line, 125 m major road, 55 dB(A), refuge 0.25 m2), Central Coast
   DCP 2.10 (18 m width, 40% coverage, 3 m setbacks, 1:20 slope), NCC Class 9b F4D4.
-- Leads: Netlify Forms (`childcare-enquiry`) -> `netlify/functions/submission-created.js` -> the Apps Script relay (env
-  LEAD_URL / LEAD_SECRET, same as Sydney Fitouts / City Fitouts / Coast Build), source glasswallschildcare.com, into the
-  "Sydney Fitouts" tab. Form detection must be ON in the Netlify project. Contact: 0411 250 058 and 0450 084 175 (numbers only),
+- Leads: Netlify Forms (`childcare-enquiry`) only - NO sheet relay (Mike, 6 Nov 2026: "an email to me is fine - it doesnt need
+  to go to the google sheets list"). Submissions are stored on the project's Forms page and emailed to Mike by a Netlify
+  form notification. No LEAD_URL / LEAD_SECRET here; do not add the relay back. Form detection must be ON. Contact: 0411 250 058 and 0450 084 175 (numbers only),
   info@estier.com.au, 6 Ossary Street Mascot.
