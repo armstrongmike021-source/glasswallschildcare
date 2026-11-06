@@ -20,7 +20,7 @@ RENDERS = [
  ("art-room.jpg", "Art and messy play", "Wet area off the playroom, glazed on two sides. Washable walls, a floor waste, and a sink at child height."),
  ("outdoor-play.jpg", "Outdoor play", "Seven square metres per child, facing north, with shade over at least half of it. The verandah is the wet-weather room and the sightline across the whole yard."),
  ("entry-lobby.jpg", "Entry and reception", "One door in, one secure door through. Parents sign in with the rooms in view, which is the point of the glass: nothing in the centre is hidden."),
- ("parent-lounge.jpg", "Parent lounge", "A place to sit at drop-off and pick-up, glazed to the babies' room, so a parent can watch without walking in."),
+ ("parent-lounge.jpg", "Parent lounge", "A place to sit at drop-off and pick-up, with a coffee and a glazed wall through to the rooms, so a parent can watch without walking in."),
 ]
 
 PAGES = [  # (file, clean url, title, description)
@@ -28,7 +28,7 @@ PAGES = [  # (file, clean url, title, description)
      "Estier builds childcare and early-learning centres across Sydney to your architect's drawings: new centres, conversions and fitouts, priced off the drawings and built to the licensing date. Check the cost of your centre in ten seconds."),
     ("working-with-architects.html", "/working-with-architects", "Working with your architect | Glass Walls Childcare by Estier", "How Estier builds a childcare centre to an architect's drawings: buildability review, pricing off the drawings, the regulator's checklist, and the glass-wall detailing, with the architect kept in charge of the design."),
     ("childcare-centre-construction-sydney.html", "/childcare-centre-construction-sydney", "Childcare centre construction, Sydney | Glass Walls Childcare by Estier", "Estier builds new childcare centres, converts existing buildings and fits out shells in new developments, to a fixed price and the operator's licensing date."),
-    ("examples.html", "/examples", "Childcare design examples | Glass Walls Childcare by Estier", "Eight rooms of a glass-walled childcare centre and how Estier builds each one: playrooms, sleep room, bathrooms, kitchen, outdoor play, entry and parent lounge."),
+    ("examples.html", "/examples", "Childcare design examples | Glass Walls Childcare by Estier", "Eight rooms of a glass-walled childcare centre and how Estier builds each one: playrooms, sleep room, art room, dining, outdoor play, entry and parent lounge."),
     ("childcare-centre-cost.html", "/childcare-centre-cost", "Childcare centre cost calculator, Sydney 2026 | Glass Walls Childcare by Estier", "What a childcare centre costs to build in Sydney: new build, conversion or fitout, by licensed places and finish. Space, parking and staffing minimums worked out for you."),
     ("childcare-centre-rules-nsw.html", "/childcare-centre-rules-nsw", "The rules a NSW childcare centre is designed to | Glass Walls Childcare by Estier", "The National Regulations, the NSW Child Care Planning Guideline, the SEPP, the National Construction Code and council controls that shape every childcare centre in NSW, in one page."),
     ("childcare-site-check.html", "/childcare-site-check", "Will your site work for a childcare centre? | Glass Walls Childcare by Estier", "Zoning, size, slope, roads, power lines, parking and outdoor space: the site tests a childcare centre has to pass in NSW, and a free site check from Estier."),
@@ -483,7 +483,7 @@ def site_page():
 
 def about_page():
     p = PAGES[7]
-    return head(p[2], p[3], p[1], "parent-lounge.jpg") + f"""
+    return head(p[2], p[3], p[1], "dining-room.jpg") + f"""
   <section class="hero"><div class="kick">About</div><h1>Estier builds.</h1>
     <p>Estier Pty Ltd is a Sydney construction company. Glass Walls Childcare is its childcare practice: centres built to architects' drawings, priced off the drawings, taken through the inspection and handed over to the operator's opening date.</p></section>
   <section class="band">
