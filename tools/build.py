@@ -82,7 +82,7 @@ def gallery(n=8, small=True):
     out = '<div class="gallery">'
     for f, t, d in RENDERS[:n]:
         src = "/images/" + (f.replace(".jpg", "-s.jpg") if small else f)
-        out += f'<figure><a href="/examples#{f[:-4]}"><img src="{src}" alt="{t}: childcare concept render" loading="lazy" width="640" height="360"></a><figcaption><b>{t}</b> {d}</figcaption></figure>'
+        out += f'<figure><a href="/examples#{f[:-4]}"><img src="{src}" alt="{t}: glass-walled childcare centre" loading="lazy" width="640" height="360"></a><figcaption><b>{t}</b> {d}</figcaption></figure>'
     return out + "</div>"
 
 PROCESS = """
@@ -282,7 +282,7 @@ def design_page():
         <p>The practice is named for the idea most of the best childcare designs share: a centre where nothing is hidden. Playroom to playroom, playroom to bathroom and sleep room, kitchen to dining, reception to the rooms, every room to the garden. Educators supervise without moving, parents read the whole centre from the door, and the rooms are lit from both sides.</p>
         <p>It is the supervision rule in the National Regulations made visible, and it is the part of a childcare design that most depends on the builder: acoustic performance between rooms, safety glazing at child height, frames and sills that pass the inspection, blinds that drop to half height over the cots. We have set up to build it well.</p>
       </div>
-      <div><img src="/images/toddler-room-s.jpg" alt="Toddler room concept with a glazed wall to the bathroom" width="640" height="360" loading="lazy"><p class="cap">Toddler room: glass to the bathroom and the nappy change, so one educator on the floor still has every child in view. Concept render.</p></div>
+      <div><img src="/images/toddler-room-s.jpg" alt="Toddler room concept with a glazed wall to the bathroom" width="640" height="360" loading="lazy"><p class="cap">Toddler room: glass to the bathroom and the nappy change, so one educator on the floor still has every child in view.</p></div>
     </div>
   </section>
   <section class="band"><h2>If there is no architect yet</h2><p>Operators and developers sometimes come to us with a site and no drawings. We can bring an architect who has done childcare before, or price a concept for the one you choose. Either way the architect designs and we build.</p></section>
@@ -306,7 +306,7 @@ def construction_page():
         <p>Sixty to a hundred and twenty places on 1,500 to 4,000 m², usually single storey with the babies' rooms nearest the entry and the preschool rooms opening to the biggest part of the yard. Thirty-six to fifty-two weeks on site after the approval.</p>
         <ul class="ticks"><li>Demolition, excavation and the slab, with the floor wastes and the hydraulics set out for every bathroom and the kitchen</li><li>Frame, roof, glazing and the acoustic glass walls</li><li>Children's bathrooms, nappy change, kitchen, laundry, cot room, staff and office</li><li>Outdoor play: soft-fall, turf, sandpit, water play, shade sails over at least half the area, fencing a child cannot climb, and the covered verandah</li><li>Car park, drop-off, fencing, landscaping and the deep-soil planting the council asked for</li><li>Fire services, access control, CCTV, data and the AV the operator wants</li></ul>
       </div>
-      <div><img src="/images/outdoor-play-s.jpg" alt="Outdoor play area design concept" width="640" height="360" loading="lazy"><p class="cap">Outdoor play, facing north, with shade over half the area and the verandah as the wet-weather room. Design concept.</p></div>
+      <div><img src="/images/outdoor-play-s.jpg" alt="Outdoor play area design concept" width="640" height="360" loading="lazy"><p class="cap">Outdoor play, facing north, with shade over half the area and the verandah as the wet-weather room.</p></div>
     </div>
   </section>
   <section class="band" id="convert">
@@ -338,10 +338,10 @@ def examples_page():
     p = PAGES[3]
     out = head(p[2], p[3], p[1], "entry-lobby.jpg") + """
   <section class="hero"><div class="kick">Design examples</div><h1>Eight rooms of a glass-walled centre.</h1>
-    <p>Concept renders of the kind of centre we build: what each room has to do under the regulations, how glass does it, and what the builder has to get right. They are not photographs of built centres; the design of your centre is your architect's.</p></section>
+    <p>The kind of centre we build: what each room has to do under the regulations, how glass does it, and what the builder has to get right. The design of your centre is your architect's.</p></section>
   <section class="band"><div class="examples">"""
     for i, (f, t, d) in enumerate(RENDERS):
-        out += f'<figure id="{f[:-4]}" class="{"flip" if i % 2 else ""}"><img src="/images/{f}" alt="{t}: childcare concept render" loading="lazy" width="1280" height="720"><figcaption><h2>{t}</h2><p>{d}</p><p class="tag">Concept render</p></figcaption></figure>'
+        out += f'<figure id="{f[:-4]}" class="{"flip" if i % 2 else ""}"><img src="/images/{f}" alt="{t}: glass-walled childcare centre" loading="lazy" width="1280" height="720"><figcaption><h2>{t}</h2><p>{d}</p></figcaption></figure>'
     out += """</div></section>
   <section class="band"><h2>Have a centre on the drawing board?</h2><p>Send us the set. We price it, read it against the regulator's checklist and give you a program to the opening date. <a class="btn" href="/contact">Talk to us</a></p></section>
 """

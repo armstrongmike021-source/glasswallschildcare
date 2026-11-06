@@ -13,8 +13,8 @@ to City Fitouts. Static site, no build step: a push to main deploys.
 - `style.css` is the shared Sydney Fitouts stylesheet; `gw.css` overrides it (navy text, sage-green #2E8B74 accent, sand cards).
   Jost everywhere. No pink.
 - Images: eight Grok renders. 6 Nov 2026 (Mike): the old parent-lounge picture was really a cot room, so it is now the sleep-room
-  picture (the dark sleep render is retired), and the parent lounge uses corp-light-04-breakout from the same folder from Dropbox/Marketing/Sydney Fitouts (Sep 2026), captioned EVERYWHERE as
-  "design concept", never as built work (`RENDERS` in build.py). `estier-logo.png` is the full Estier lockup.
+  picture (the dark sleep render is retired), and the parent lounge uses corp-light-04-breakout from the same folder from Dropbox/Marketing/Sydney Fitouts (Sep 2026), NOT labelled on the pictures (Mike, 6 Nov 2026: "no need to label them as concept renders"); one footer line says the pictures are
+  concept renders, and no caption may present them as Estier's built work (`RENDERS` in build.py). `estier-logo.png` is the full Estier lockup.
 - Wording: Estier "designs" / "design team" - never "architect" or "architecture" for Estier's own service (Sepi is not a
   registered architect, Architects Act 2003); "your architect" for a client's. The build asserts no "Republic", "Trevor",
   "guaranteed". Owners' base price rules do not apply here (no HDA content).
